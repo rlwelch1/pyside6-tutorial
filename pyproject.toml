@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyside6-experiment"
+version = "0.0.0"
+description = "Project to experiment and learn PySide6 features."
+authors = ["Ryan Welch ryan.welch001@gmail.com"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+pyside6 = "^6.5.0"
+
+[[tool.poetry.packages]]
+include = "pyside6-experiment"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]  # Updated for compatibility with Poetry 2.1.2
+build-backend = "poetry.core.masonry.api"
